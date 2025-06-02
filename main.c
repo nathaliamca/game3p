@@ -1,5 +1,5 @@
 #include "raylib.h"
-
+#include "jogo.h"
 
 int main() {
     // 1. Inicializa a janela
