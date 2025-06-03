@@ -2,19 +2,19 @@
 #include "jogo.h"
 
 void InitGame() {
-    // Aqui você pode carregar modelos, texturas, sons...
+    // Inicialize variáveis do jogo aqui (ex: posição do jogador)
 }
 
 void UpdateGame() {
-    // Atualização da lógica do jogo
+    // Lógica do jogo, movimentação, colisões, etc.
 }
 
 void DrawGame() {
-    BeginMode3D((Camera3D){ 0 });
-    DrawGrid(10, 1.0f);
-    EndMode3D();
+    // Desenho de elementos 2D
+    DrawText("Jogo 2D base!", 10, 10, 20, DARKGRAY);
+    DrawRectangle(100, 100, 50, 50, RED); // Exemplo: quadrado vermelho
 }
 
 void CloseGame() {
-    // Unload de recursos
+    // Descarregue recursos 
 }

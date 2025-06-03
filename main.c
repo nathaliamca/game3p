@@ -3,7 +3,7 @@
 
 int main() {
     // 1. Inicializa a janela
-    InitWindow(800, 600, "Meu Jogo 3D");
+    InitWindow(800, 600, "Meu Jogo");
 
     // 2. Inicializa o jogo (lógica separada)
     InitGame();
